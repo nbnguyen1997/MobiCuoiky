@@ -29,7 +29,7 @@ public class ScreenSlide extends FragmentActivity {
     /**
      * The number of pages (wizard steps) to show in this demo.
      */
-    private static final int NUM_PAGES = 15;
+    private static final int NUM_PAGES = 5;
 
     /**
      * The pager widget, which handles animation and allows swiping horizontally to access previous

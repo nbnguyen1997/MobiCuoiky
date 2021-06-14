@@ -30,8 +30,10 @@ import androidx.fragment.app.FragmentManager;
 
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -68,13 +70,20 @@ public class MainActivity extends AppCompatActivity
         //khởi tạo csdl
         DBHelper db = new DBHelper(this);
         //db.deleteDataBase();
+//        try{
+//            db.deleteDataBase();
+//            Toast.makeText(this,"da xoa thanh vcong",Toast.LENGTH_SHORT).show();
+//        }catch (SQLException e){
+//            e.printStackTrace();
+//            Toast.makeText(this,"bi loi roi",Toast.LENGTH_SHORT).show();
+//        }
 
 
-        try {
-            db.createDataBase();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            db.createDataBase();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     @Override

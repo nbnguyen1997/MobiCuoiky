@@ -23,11 +23,11 @@
                     android:icon="@drawable/ic_menu_send"
                     android:title="Lý" />
                 <item
-                    android:id="@+id/nav_gallery"
+                    android:id="@+id/Hoa"
                     android:icon="@drawable/ic_menu_gallery"
                     android:title="Hóa" />
                 <item
-                    android:id="@+id/Hoa"
+                    android:id="@+id/Sinh"
                     android:icon="@drawable/ic_menu_slideshow"
                     android:title="Sinh" />
                 <item
